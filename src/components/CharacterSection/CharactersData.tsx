@@ -1,0 +1,68 @@
+const Characters = [
+  {
+    name: "Chiikawa",
+    color: "#f59bad",
+    jpnName: "ちいかわ",
+    pronounciation: "chee-ee-kow-wah",
+    img_link: "/assets/CharacterPortraits/chiikawa.png",
+    info: "Chiikawa is gentle, sweet, and kind. Cautious to step out of their comfort zone, and somewhat shy, Chiikawa often gets nervous which usually results in anxious tears. Thankfully, best friends Hachiware and Usagi always has this cute and small creature’s back. ",
+  },
+  {
+    name: "Hachiware",
+    color: "#b8e4f4",
+    jpnName: "ハチワレ",
+    pronounciation: "hach-ee-wah-rey",
+    img_link: "/assets/CharacterPortraits/hachiware.png",
+    info: "Hachiware has a big heart, possesses a can-do attitude, and always finds the bright side. A true best friend, Hachiware helps Chiikawa overcome fears and makes them feel safe. Despite the cat-like ears and the occasional blep, for the record, Hachiware is not necessarily a cat.",
+  },
+  {
+    name: "Usagi",
+    color: "#f9e7b6",
+    jpnName: "うさぎ",
+    pronounciation: "oo-sah-gee",
+    img_link: "/assets/CharacterPortraits/usagi.png",
+    info: "The most energetic of the crew, Usagi seems to find the fun. Though the word usagi literally means rabbit in Japanese, and Usagi has bunny-looking ears, it’s unclear Usagi’s identity. Maybe a rabbit, maybe not. Lively and fearless, Usagi is known for signature yells “Yaha!” and “Ura!”. Interestingly, no one knows where Usagi lives.",
+  },
+  {
+    name: "Momonga",
+    color: "#ebddec",
+    jpnName: "モモンガ",
+    pronounciation: "moh-mohn-gah",
+    img_link: "/assets/CharacterPortraits/momonga.png",
+    info: "With wide expressive eyes and a big fluffy tail, Momonga is super cute and not afraid to use it. Prone to making unreasonable demands and causing trouble, the energetic Momonga often tries to wield their adorableness to get their way.  Also, momonga can fly. ",
+  },
+  {
+    name: "Rakko",
+    color: "#d7dadd",
+    jpnName: "ラッコ",
+    pronounciation: "rah-koh",
+    img_link: "/assets/CharacterPortraits/rakko.png",
+    info: "A highly regarded hunter, and respected for bravery, Rakko is the #1 top ranking leader in the field of monster hunting. While skilled with a sword, Rakko is generous and kind and enjoys helping Chiikawa and friends to improve their hunting abilities. Rakko also loves to indulge in sweet treats!",
+  },
+  {
+    name: "Kurimanju",
+    color: "#e6f1d0",
+    jpnName: "くりまんじゅう",
+    pronounciation: "kuh-ree-mahn-joo",
+    img_link: "/assets/CharacterPortraits/kurimanju.png",
+    info: "Kurimanju has a certain fondness for beverages… strong ones. Equipped with a drinking license, Kurimanju is often seen with snacks and drinks in hand and is known for making a big sigh after finishing the last sip.  Though quiet in nature, Kurimanju is kind and can be found sharing food with Chiikawa and friends.",
+  },
+  {
+    name: "Shisa",
+    color: "#facdbc",
+    jpnName: "シーサー",
+    pronounciation: "shee-sah",
+    img_link: "/assets/CharacterPortraits/shisa.png",
+    info: "Inspired by the guardians of the Ryukyu islands, the lion-esque looking Shisa is a hard worker to the core. After passing the extremely difficult 'super part - time worker qualification,' exam, Shisa works as an assistant to the chef Ramen Yoroi-san at Rou. Shisa regards the boss as a ramen master and holds them in the highest esteem.",
+  },
+  {
+    name: "Furuhonya",
+    color: "#d4e5f6",
+    jpnName: "古本屋",
+    pronounciation: "foo-roo-hohn-yah",
+    img_link: "/assets/CharacterPortraits/furuhonya.png",
+    info: "Furuhonya is a kindhearted bookworm who buys and sells secondhand books. Kindhearted and considerate, this lovable pink pal is friends withMomonga. In fact, Furuhonya’s crab-shaped headband was a gift from Momonga. Furuhonya is sometimes called Kani chan by fans. Kani means crab in Japanese.",
+  },
+];
+
+export default Characters;

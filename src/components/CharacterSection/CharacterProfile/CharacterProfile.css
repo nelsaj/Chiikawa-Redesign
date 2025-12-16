@@ -1,0 +1,50 @@
+.CharacterProfile * {
+    --circleWidth: 40%
+}
+.CharacterProfile,  .CharacterProfile *{
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+
+/* CharacterProfile_Picture */
+.CharacterProfile_Picture {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    position: relative; width: 100%;
+}
+.CharacterProfile_Picture img.CharacterPortrait {
+    scale: 1; transition: cubic-bezier(0.215, 0.610, 0.355, 1) scale; transition-duration: 0.4s;
+    position: absolute; z-index: 100; width: calc(var(--circleWidth)/1.2); bottom: 20%;
+}
+img.CharacterPortrait:hover, img.CharacterPortrait.hej {
+    scale: 1.2;
+    
+}
+.CharacterProfile_Picture .circle {
+    aspect-ratio: 1/1; border-radius: 50%;
+    width: var(--circleWidth);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' width='20'%3E%3Ccircle cx='10' cy='10' r='2' fill='white' /%3E%3C/svg%3E ");
+}
+
+/* CharacterProfile_Titles */
+.CharacterProfile_Text {
+    position: relative;
+    font-family: "Itim", cursive; color: #371b16;
+}
+.CharacterProfile_Titles {
+    z-index: 101;
+    -webkit-text-stroke: 5px white; paint-order: stroke fill;
+
+    position: absolute; top: -50px;
+}
+.CharacterProfile_Titles * {
+    margin: 0;
+}
+@keyframes InfoBoxPopUp {
+    0% {height: 0px;}
+    100% {height: 300px;}
+}
+.CharacterProfile_Info {
+    animation: InfoBoxPopUp 1s;
+    width: var(--circleWidth); border-radius: 3%;
+    /* padding: 20px; padding-top: 100px; */
+    height: auto;
+}
