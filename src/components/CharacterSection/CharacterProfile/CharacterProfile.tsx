@@ -43,7 +43,7 @@ function CharacterProfile({
         }}
       >
         <img
-          className={"CharacterPortrait " + (mouseOver && "hej")}
+          className={"CharacterPortrait " + (isExpanded(index) && "hej")}
           src={img_link}
           alt={name}
         />
@@ -57,14 +57,14 @@ function CharacterProfile({
           <p>({pronounciation})</p>
         </div>
 
-        {isExpanded(index) && (
-          <div
-            className="CharacterProfile_Info"
-            style={{ backgroundColor: color }}
-          >
-            <p>{children}</p>
-          </div>
-        )}
+        <div
+          className={
+            "CharacterProfile_Info " + (!isExpanded(index) && "notExpanded")
+          }
+          style={{ backgroundColor: color }}
+        >
+          <p>{children}</p>
+        </div>
       </div>
     </div>
   );
